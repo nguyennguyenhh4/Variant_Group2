@@ -1,5 +1,5 @@
 # Variant_Group2
-# Báo Cáo Lỗi Dự Án
+# Báo Cáo Lỗi 
 **Link GitHub nhóm:**  
 https://github.com/nguyennguyenhh4/Variant_Group2
 
