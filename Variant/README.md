@@ -1,58 +1,46 @@
-# Campus Bookstore Lab
+# Variant_Group2
+# Báo Cáo Lỗi 
+---
 
-Project PHP mini mô phỏng trang quản trị nhà sách trong trường để sinh viên thực hành
+## Danh sách lỗi
 
-## Mục tiêu bài tập
+### Lỗi 1
+- **File:** `reports.php`  
+- **Dòng:** 3  
+- **Mô tả:** Thiếu dấu chấm phẩy `;` ở cuối câu lệnh.
 
-Sinh viên cần:
+---
 
-1. Chạy được project trong môi trường local.
-2. Tìm tối thiểu 8 lỗi trong source code.
-3. Phân loại mỗi lỗi vào 1 trong 2 nhóm:
-   - `syntax`
-   - `logic`
-4. Sua tat ca loi de cac trang quan tri nha sach hoat dong dung.
+### Lỗi 2
+- **File:** `customers.php`  
+- **Dòng:** 6  
+- **Mô tả:** Thiếu dấu ngoặc vuông đóng `]`.
 
-## Cách chạy
+---
 
-Yêu cầu:
+### Lỗi 3
+- **File:** `settings.php`  
+- **Dòng:** 7  
+- **Mô tả:** Thiếu dấu ngoặc vuông đóng `]`
 
-- PHP 8.1 trở lên
+---
 
-Chạy built-in server:
+### Lỗi 4
+- **File:** `dashboard.php`  
+- **Mô tả:** Giá trị trạng thái sai.  
+- **Trước khi sửa:** `pending`  
+- **Sau khi sửa:** `completed`
 
-```bash
-php -S localhost:8000
-```
+---
 
-Mở trình duyệt:
+### Lỗi 5
+- **File:** `orders.php`  
+- **Mô tả:** Giá trị trạng thái sai.  
+- **Trước khi sửa:** `completed`  
+- **Sau khi sửa:** `pending`
 
-```text
-http://localhost:8000
-```
-
-## Các trang cần kiểm tra
-
-- `/` hoặc `/?page=dashboard`
-- `/?page=orders`
-- `/?page=checkout`
-- `/?page=customers`
-- `/?page=reports`
-- `/?page=settings`
-
-## Gợi ý
-
-- Có cả lỗi khiến trang bị `parse error`.
-- Có lỗi không làm crash trang, nhưng trả ra kết quả sai.
-- Không cần database, dữ liệu mẫu nằm trong thư mục `data/`.
-- Nên dùng `php -l <file>` để kiểm tra syntax từng file.
-
-## Kết quả mong đợi
-
-Sau khi sửa xong:
-
-- Tất cả route đều mở được.
-- Số liệu trên dashboard hợp lý.
-- Danh sách đơn hàng hiển thị đúng.
-- Tính toán checkout đúng logic.
-- Báo cáo và cài đặt không còn lỗi syntax.
+## Thành viên nhóm 2: 
+- 24521111 - Nguyễn Hoàng Nam
+- 24520903 - Lục Vĩnh Kiệt
+- 24520981 - Lê Quang Lộc
+- 24521263 - Nguyễn Thị Tuyết Nhi
