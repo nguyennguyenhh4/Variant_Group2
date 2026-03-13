@@ -38,11 +38,14 @@
 - **Mô tả:** Giá trị trạng thái sai.  
 - **Trước khi sửa:** `completed`  
 - **Sau khi sửa:** `pending`
+
+---
+
 ### Lỗi 6
-- **File:** `customers`  
-- **Data:** `customers`  
+- **File:** `customers trong folder data`  
+- **Dòng:** 14  
 - **Mô tả:** Giá trị trạng thái không đúng kiểu dữ liệu.  
-- **Trước khi sửa:** `active`  
+- **Trước khi sửa:** `false`  
 - **Sau khi sửa:** `true`
 
 ---
@@ -68,4 +71,5 @@
 - 24520903 - Lục Vĩnh Kiệt
 - 24520981 - Lê Quang Lộc
 - 24521263 - Nguyễn Thị Tuyết Nhi
+
 
