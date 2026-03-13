@@ -63,7 +63,7 @@
 - **File:** `report.php`  
 - **Dòng:** 7  
 - **Mô tả:** Sai tên biến/thuộc tính.  
-- **Trước khi sửa:** (tên cũ)  
+- **Trước khi sửa:** `name`  
 - **Sau khi sửa:** `category`
 
 ## Thành viên nhóm 2: 
@@ -71,5 +71,6 @@
 - 24520903 - Lục Vĩnh Kiệt
 - 24520981 - Lê Quang Lộc
 - 24521263 - Nguyễn Thị Tuyết Nhi
+
 
 
